@@ -15,6 +15,7 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -22,3 +23,12 @@ group :development do
 
   gem 'spring'
 end
+<<<<<<< HEAD
+
+group :test do
+	gem 'capybara'
+	gem 'selenium-webdriver'
+	gem 'database_cleaner'
+end
+=======
+>>>>>>> master
